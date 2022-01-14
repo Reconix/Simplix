@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar > ul > li {
-  margin-left: 5px;
+  margin-left: 7px;
   line-height: 17px;
 }
 .navbar a, .navbar a:focus {
@@ -124,28 +124,28 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 25px 15px 24px 15px;
-  font-size: 14px;
-  color: #262626;
+  font-size: 13px;
+  color: #979797;
   white-space: nowrap;
   transition: 0.3s;
 }
 .navbar a i, .navbar a:focus i {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 0;
   margin-left: 5px;
 }
 
+.navbar a:hover {
+  font-weight: bold;
+}
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   background: #1e6fd7;
   color: #fff
+
 }
 
 .navbar .nav-link a:hover {
-  color: #111;
-}
-
-.navbar .nav-link active {
   color: #111;
 }
 
@@ -433,7 +433,7 @@ section {
   font-size: 16px;
   padding: 0 20px;
   background: #1e6fd7;
-  color: #fff;
+  color: #939191;
   transition: 0.3s;
   border-radius: 4;
 }
@@ -443,6 +443,7 @@ section {
   font-size: 17px;
 }
 #footer .copyright {
+  color: #939191;
   text-align: center;
   padding-top: 30px;
 }
@@ -450,10 +451,10 @@ section {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  color: #939191;
 }
 #footer .credits a {
-  color: #1e6fd7;
+  color: #1e6fd7a3;
 }
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
