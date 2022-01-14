@@ -17,22 +17,216 @@
   <!-- Fonts -->
 
   <!-- CSS Dependencies-->
+  <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
   <!-- CSS Theme Syles -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
   <!--===:: Top Bar ::===-->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@simplex.net">info@simplex.net</a>
+        <i class="bi bi-phone-fill phone-icon"></i> 12345678912
+      </div>
+      <div class="social-links d-none d-md-block">
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
 
   <!--===:: Header ::===-->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="#">Simplix</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">Blog</a></li>
+          <li><a class="nav-link" href="#">Services</a></li>
+          <li class="dropdown"><a href="#">Drop Down</a><i class="bi bi-chevron-down"></i>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#">Drop Deeper</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link" href="#">About</a></li>
+          <li><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+  <!--===:: Slider ::==-->
 
   <!--==:: Content Section ::===-->
 
+  <main id="main-content">
+
+    <!--==:: Sections ::==-->
+
+    <!--- Simple --->
+    <section id="simples" class="simples">
+      <div class="container">
+        <div style="margin:50px 5px 300px 10px;">
+        <h1>Hello World</h1>
+        <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+      </div>
+    </section>
+
+<!-- We'll style you in a bit.
+
+    --- Services ---
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Services</span>
+          <h2>Services</h2>
+          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Yar Ipsum</a></h4>
+              <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Scallywag dance</a></h4>
+              <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Sail ho Corsair</a></h4>
+              <p>Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4><a href="">Keelhaul squiffy</a></h4>
+              <p>Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4><a href="">Boatswain schooner</a></h4>
+              <p>The seven seas boatswain schooner gaff booty Jack Tar transom spirits.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Divera don</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+  -->
+
+  </main>
+
   <!--==:: Footer ::===-->
+  <footer id="footer">
+    <div class="footer-top footer-top-style">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Simplix</h3>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Falcon</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Good Coffee</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">ForgeIgniter</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Stuff</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Development</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Simplix</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Built and fueled with Coffee by <a href="#">Reconix</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
 
   <!--==:: JS Dependancies ::===--->
+  <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
 
   <!--==:: JS Theme ::===--->
 
