@@ -14,13 +14,14 @@
 
   <!--=:: Favicons ::=-->
 
-  <!--=:: Fonts ::=-->
-
   <!--=:: CSS Dependencies ::=-->
-  <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
 
   <!--=:: CSS Theme Syles ::=-->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!--=:: Fonts ::=-->
+  <link href="assets/bootstrap/bootstrap-icons.css" rel="stylesheet">
 
 </head>
 
@@ -76,7 +77,7 @@
   <?php include_once('inc/footer.php');?>
 
   <!--=:: JS Dependencies ::=--->
-  <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
 
   <!--=:: JS Theme ::=--->
 
