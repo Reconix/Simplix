@@ -1,5 +1,5 @@
 /**
-* Template Name: Simplix - v0.1
+* Template Name: Simplix - v0.2
 * Template URL: https://github.com/
 * Author: Reconix
 */
@@ -7,7 +7,7 @@
 /* --- Core --- */
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "ubuntu", sans-serif;
   color: #444444;
 }
 
@@ -22,8 +22,48 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lucida Console", monospace;
+  font-family: "varela_roundregular", monospace;
   letter-spacing: 0.2px;
+}
+
+@font-face {
+    font-family: 'varela_roundregular';
+    src: url('../fonts/varelaround-regular-webfont.woff2') format('woff2'),
+         url('../fonts/varelaround-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat-variableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/ubuntu-regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+/* --- Logo ---*/
+.logo {
+  font-family: "montserrat", sans-serif;
+  font-size: 34px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 1px;
+  padding: 0;
+  /*border-bottom: 1px solid #1e6fd7;*/
+
+}
+.logo a {
+  background: linear-gradient(to bottom right, #0070ff 9%, #4AFFA4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #3999fd;
+}
+.logo img {
+  max-height: 40px;
 }
 
 /* --- Top Bar --- */
@@ -67,32 +107,17 @@ h1, h2, h3, h4, h5, h6 {
 /* --- Header --- */
 
 #header {
-  background: #191919;
+  /* background: #191919; */
+  background: #0e0e0e;
   transition: all 0.5s;
-  z-index: 997;
-  height: 70px;
+  z-index: 69;
+  height: auto;
   border-bottom: 4px solid #1e6fd7;
   -webkit-box-shadow: 0px 2px 14px 0px rgba(170, 170, 170, 0.94);
   box-shadow: 0px 2px 14px 0px rgba(170, 170, 170, 0.94);
 }
-#header.fixed-top {
-  background: #191919;
-}
-#header .logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 32px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin: 1px;
-  padding: 0;
-  border-bottom: 1px solid #1e6fd7;
-
-}
-#header .logo a {
-  color: #3999fd;
-}
-#header .logo img {
-  max-height: 40px;
+#header .fixed-top {
+  background: #0e0e0e;
 }
 
 .scrolled-offset {
@@ -137,6 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   background: #1e6fd7;
+  box-shadow: inset 0px 20px 14px 1px #00a1ff;
   color: #fff
 
 }
@@ -327,15 +353,14 @@ section {
   box-shadow: 0px -11px 15px -5px rgba(15,25,29,0.77), 0px -20px 47px -15px rgba(103,103,103,0.78);
 }
 #footer .footer-top .footer-info {
-  margin: 0 25px 10px 25px;
-  background: #191919;
+  margin: 0 -70px 15px 0px;
+  background: #080808;
   color: #fff;
   border-top: 2px solid #1e6fd7;
   border-bottom: 1px solid #1e6fd7;
   text-align: center;
   vertical-align: middle;
-  padding: 50px 0px 50px 0px;
-
+  padding: 55px 0px 55px 0px;
 }
 #footer .footer-top .footer-info h3 {
   font-size: 36px;
@@ -348,7 +373,6 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
@@ -375,6 +399,7 @@ section {
   color: #fff;
   position: relative;
   padding-bottom: 12px;
+  margin-left: -10px;
 }
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
@@ -386,7 +411,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #1e6fd7;
+  color: #b6d6ff;
   font-size: 18px;
   line-height: 1;
 }
@@ -394,17 +419,24 @@ section {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  color: #fff;
 }
 #footer .footer-top .footer-links ul li:first-child {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: #a3a3a3;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 #footer .footer-top .footer-links ul a:hover {
+  color: #136891;
+}
+#footer .footer-link {
+  color: #fff;
+}
+#footer .footer-top .footer-links ul li:hover {
   color: #1e6fd7;
 }
 #footer .footer-top .footer-newsletter form {
@@ -429,7 +461,7 @@ section {
   font-size: 16px;
   padding: 0 20px;
   background: #1e6fd7;
-  color: #939191;
+  color: #fff;
   transition: 0.3s;
   border-radius: 4;
 }
@@ -442,18 +474,4 @@ section {
   color: #939191;
   text-align: center;
   padding-top: 30px;
-}
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: #939191;
-}
-#footer .credits a {
-  color: #1e6fd7a3;
-}
-@media (max-width: 575px) {
-  #footer .footer-top .footer-info {
-    margin: -20px 0 30px 0;
-  }
 }
