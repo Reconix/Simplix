@@ -9,10 +9,10 @@
         <li><a class="nav-link active" href="#">Home</a></li>
         <li><a class="nav-link" href="#">Blog</a></li>
         <li><a class="nav-link" href="#">Services</a></li>
-        <li class="dropdown"><a href="#">Drop Down</a><i class="bi bi-chevron-down"></i>
+        <li class="dropdown"><a href="#">Drop Down <i class="bi-chevron-down"></i></a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>
-            <li class="dropdown"><a href="#">Drop Deeper</a>
+            <li class="dropdown"><a href="#">Drop Deeper <i class="bi-chevron-right"></i></a>
               <ul>
                 <li><a href="#">Deep Drop Down 1</a></li>
                 <li><a href="#">Deep Drop Down 2</a></li>
