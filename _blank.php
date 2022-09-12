@@ -52,7 +52,7 @@
 
   <?php include_once('inc/header.php');?>
 
-  <!--=:: Slider ::=-->
+  <!--=:: Carousel Slider ::=-->
 
   <!--=:: Content Section ::=-->
 
@@ -60,20 +60,17 @@
 
    <!--=:: Sections ::=-->
 
-    <!--- Simple --->
-    <section id="simples" class="simples">
-      <div class="container">
-        <div style="margin:50px 5px 300px 10px;">
-        <h1>Hello World</h1>
-        <p>
-          I'm not great with themes so take this with a pintch of salt, the
-          theme was originally for ForgeIgniter.
-        </p>
-        </div>
-      </div>
-    </section>
+   <div class="px-4 py-5 my-5 text-center">
+     <h1 class="display-6">Hello World</h1>
+     <div class="col-lg-6 mx-auto">
+       <p class="mb-4">This is a blank canvas to start all your fun using Simplix</p>
+     </div>
+   </div>
 
   </main>
+
+<main>
+
   <?php include_once('inc/footer.php');?>
 
   <!--=:: JS Dependencies ::=--->
